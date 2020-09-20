@@ -14,4 +14,5 @@ def move_mouse(a, b):
 
 for i in range(1, 4):
     move_mouse(i * 100, i * 100)
+    print("move mouse here")
     time.sleep(2)
