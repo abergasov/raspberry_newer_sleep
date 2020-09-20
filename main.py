@@ -13,6 +13,6 @@ def move_mouse(a, b):
 
 
 for i in range(1, 2):
-    move_mouse(i * 100000, i * 100000)
+    move_mouse(i * 1, i * 1)
     print("move mouse here")
     time.sleep(1)
