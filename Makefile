@@ -4,7 +4,7 @@ install:
 
 	@echo "-- creating service"
 	sudo mkdir -p /etc/systemd/system
-	sudo cp ssh_notify.service /etc/systemd/system/ssh_notify.service
+	sudo cp rns.service /etc/systemd/system/rns.service
 
 	@echo "-- enable service"
-	sudo service ssh_notify start && sudo systemctl enable ssh_notify
+	sudo service rns start && sudo systemctl enable rns
