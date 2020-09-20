@@ -12,7 +12,7 @@ def move_mouse(a, b):
     d.sync()
 
 
-for i in range(1, 2):
+for i in range(1, 3):
     move_mouse(i * 1, i * 1)
     print("move mouse here")
-    time.sleep(1)
+    time.sleep(0.1)
