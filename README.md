@@ -91,3 +91,8 @@ sudo chmod u+x /usr/local/bin/cpmount && sudo reboot now
 ```
 
 default path is /media/usbX/
+
+##### auto reboot
+```shell
+0 4 * * * /sbin/shutdown -r now
+```
