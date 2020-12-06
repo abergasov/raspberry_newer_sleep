@@ -89,3 +89,5 @@ make executable
 ```shell
 sudo chmod u+x /usr/local/bin/cpmount && sudo reboot now
 ```
+
+default path is /media/usbX/
